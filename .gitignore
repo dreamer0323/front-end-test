@@ -1,2 +1,35 @@
 # 忽略部署相关文件（本机运维工具，不纳入版本管理）
 /deploy/
+
+# 依赖目录（可通过 npm install 重新生成）
+node_modules/
+
+# 构建产物（npm run build 生成）
+dist/
+dist-ssr/
+*.local
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量（可能包含密钥，勿提交）
+.env
+.env.*
+!.env.example
+
+# Vite 依赖预构建缓存
+.vite/
+
+# 编辑器 / IDE 配置
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.sw?
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
