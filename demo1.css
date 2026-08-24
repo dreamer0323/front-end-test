@@ -1,0 +1,17 @@
+    .card{
+        border: 1px solid #000;
+        padding: 20px;
+        margin: 20px;
+        width: 300px;
+    }
+
+    .card h2{
+        color: rgb(0, 0, 0);
+    }
+
+    .card p{
+        color: rgb(35, 35, 44);
+    }
+    .card button{
+        color: rgb(154, 163, 154);
+    }
